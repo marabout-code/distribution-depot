@@ -1,0 +1,45 @@
+name: eseka_distribution
+description: "Application mobile 100% offline-first de gestion de dépôts de boissons et tournées à Eséka (Cameroun, FCFA)."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # Local Database (Single Source of Truth, 100% Offline)
+  drift: ^2.18.0
+  drift_flutter: ^0.1.0
+
+  # Backend & Cloud Synchronization
+  supabase_flutter: ^2.5.6
+
+  # Hardware & Security
+  connectivity_plus: ^6.0.3
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.3
+  crypto: ^3.0.3
+  uuid: ^4.4.0
+
+  # Formatting & UI
+  intl: ^0.19.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  drift_dev: ^2.18.0
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true

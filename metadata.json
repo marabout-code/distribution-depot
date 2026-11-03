@@ -1,0 +1,6 @@
+{
+  "name": "Eséka Distribution - Dépôt de Boissons",
+  "description": "Application Flutter mobile 100% offline-first de distribution de boissons à Eséka (Cameroun). Gestion des tournées, casiers, consignes, paiements Cash/MTN MoMo/Orange Money, architecture Drift SQLite et Supabase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
